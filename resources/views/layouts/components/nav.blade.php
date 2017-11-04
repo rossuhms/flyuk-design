@@ -108,8 +108,7 @@
 								<li><a href="index.php?page=crew_centre">Crew Page</a></li>
 								<li><a href="index.php?page=my_booked_flights">Booked Flights</a></li>
 								<li><a href="index.php?page=my_logbook">Logbook</a></li>
-								<li><a href="index.php?page=message_centre">Message Centre</a></li>
-								<li><a href="index.php?page=my_controls">My Controls</a></li>
+								<li><a href="index.php?page=my_controls">My Account</a></li>
 								<li><a href="/assets/downloads/resources/documents/operations/Pilot%20Handbook_V2_20.pdf">Pilot Handbook &amp; SOP</a></li>
 								<li><a href="index.php?page=downloads">SkyTrack &amp; Downloads</a></li>
 				  			</ul>
@@ -125,11 +124,10 @@
 					  		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Community <span class="caret"></span></a>
 					  		<ul class="dropdown-menu" role="menu">
 								<li><a href="https://flyuk.aero/forums">Forums</a></li>
-								<li><a href="index.php?page=gallery&amp;require=screenshots">Screenshots &amp; Videos</a></li>
 								<li><a href="index.php?page=teamspeak">Teamspeak</a></li>
 								<li><a href="index.php?page=pilot_rosters">Pilot Rosters</a></li>
 								<li><a href="index.php?page=offers_discounts">Offers &amp; Discounts</a></li>
-								<li><a href="index.php?page=realworld_events">Real World Events</a></li>
+
 					 		</ul>
 						</li>
 						<li class="dropdown">
