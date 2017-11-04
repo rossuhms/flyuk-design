@@ -30,11 +30,6 @@ header, .footer
 {
     background-color: $flyuk-darkgrey;
 }
-.footer_whosonline h3
-{
-	color: #FFFFFF;
-    text-shadow: 1px 1px 1px rgba(0,0,0,1);
-}
 header a, .footer a
 {
 	color: #FFFFFF;
@@ -123,7 +118,14 @@ color: #000000;
 }
 
 
+/* Who's Online Styles */
 
+.footer_whosonline h3
+{
+	color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0,0,0,1);
+	text-align: center;
+}
 
 a.whos_online_block
 {
@@ -150,4 +152,45 @@ a.whos_online_block p
 a.whos_online_block p.number
 {
 	font-size: 30px;
+}
+
+/* Social Icons Styles */
+
+.social-media-facebook 
+{
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    background-image: url(https://flyuk.aero/en/images/social_icons/fb.png);
+}
+
+.social-media-facebook:hover 
+{
+  background-image: url("https://flyuk.aero/en/images/social_icons/fb_hover.png");
+}
+
+.social-media-twitter 
+{
+  cursor: pointer;
+  width: 39px;
+  height: 39px;
+  background-image: url("https://flyuk.aero/en/images/social_icons/tw.png");
+}
+
+.social-media-twitter:hover 
+{
+  background-image: url("https://flyuk.aero/en/images/social_icons/tw_hover.png");
+}
+
+.social-media-youtube 
+{
+  cursor: pointer;
+  width: 39px;
+  height: 39px;
+  background-image: url("https://flyuk.aero/en/images/social_icons/yt.png");
+}
+
+.social-media-youtube:hover 
+{
+  background-image: url("https://flyuk.aero/en/images/social_icons/yt_hover.png");
 }

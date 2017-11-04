@@ -6,7 +6,7 @@
 				@{{ currentTime }}
 			</div>
 			<div class="col-sm-6">
-				Links
+				<a href="#">UKV1121 - Chris Sutcliffe</a>|<a href="#">Help</a>|<a href="#">Staff CP</a>|<a href="#">Logout</a>
 			</div>
 		</div>
 			
@@ -15,7 +15,9 @@
 				<img src="https://flyuk.aero/en/images/logos/logo_ukv.png" class="img-fluid" alt="Fly UK logo">
 			</div>
 			<div class="col-sm-6">
-				Social Icons
+				<div class="social-media-facebook"></div>
+				<div class="social-media-twitter"></div> 
+				<div class="social-media-youtube"></div>
 			</div>
 
 		</div>
