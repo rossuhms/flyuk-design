@@ -1,6 +1,15 @@
 nav[role="main-navigation"] {
+    @mixin navStyles {
+        @apply .inline-flex .mr-2 .py-4 .px-4 .font-normal .relative;
+    }
     .nav-item {
-        @apply .inline-flex .mr-2 .py-4 .px-4 .font-normal .text-sm .relative;
+        @include navStyles;
+        &:hover {
+            @apply .grey-gradient-invert .cursor-pointer;
+        }
+    }
+    .nav-item-small {
+        @include navStyles;
         &:hover {
             @apply .grey-gradient-invert .cursor-pointer;
         }
@@ -22,6 +31,26 @@ nav[role="main-navigation"] {
                     @apply .bg-grey-light;
                 }
             }
+        }
+    }
+    .nav-item-large {
+        @include navStyles;
+        &:hover {
+            @apply .grey-gradient-invert .cursor-pointer;
+        }
+        &:hover .dropdown-menu {
+            @apply .block;
+        }
+
+        .dropdown-menu {
+            @apply .absolute .bg-white .border-b .border-l .border-r .border-grey-light .shadow;
+            width: 1000px;
+            top: 100%;
+            left: -100%;
+            margin: 0;
+            display: none;
+            list-style: none;
+            padding: 0;
         }
     }
 }
