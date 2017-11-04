@@ -1,6 +1,6 @@
 nav[role="main-navigation"] {
     @mixin navStyles {
-        @apply .inline-flex .mr-2 .py-4 .px-4 .font-normal .relative;
+        @apply .inline-flex .mr-2 .py-4 .px-4 .font-normal;
     }
     .nav-item {
         @include navStyles;
@@ -36,17 +36,16 @@ nav[role="main-navigation"] {
     .nav-item-large {
         @include navStyles;
         &:hover {
-            @apply .grey-gradient-invert .cursor-pointer;
+            @apply .grey-gradient-invert;
         }
         &:hover .dropdown-menu {
             @apply .block;
         }
 
         .dropdown-menu {
-            @apply .absolute .bg-white .border-b .border-l .border-r .border-grey-light .shadow;
-            width: 1000px;
+            @apply .bg-white .border-b .border-l .border-r .border-grey-light .shadow;
             top: 100%;
-            left: -100%;
+            left: 0;
             margin: 0;
             display: none;
             list-style: none;

@@ -11,7 +11,8 @@ window.Vue = require('vue');
 const app = new Vue({
     el: '#app',
     data: {
-        currentTime: ''
+        currentTime: '',
+        currentYear: moment().format('YYYY')
     },
     mounted() {
         setInterval(() => {
