@@ -1,11 +1,11 @@
 <nav role="main-navigation" class="grey-gradient w-full h-12 text-sm">
     <div class="container px-8 mx-auto relative">
-        <div class="flex items-center flex-row">
+        <div class="flex items-center flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row">
             <div class="nav-item">
                 <a href="https://flyuk-design.dev">Home</a>
             </div>
-            <div class="nav-item-small relative">
-                <a href="https://flyuk-design.dev">About Us</a>
+            <div class="nav-item-small">
+                <a href="https://flyuk-design.dev">About Us <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="">About Fly UK</a></li>
                     <li><a href="">History &amp; Milestones</a></li>
@@ -14,7 +14,7 @@
                 </ul>
             </div>
             <div class="nav-item-large">
-                <a href="#">Operations</a>
+                <a href="#">Operations <b class="caret"></b></a>
                 <div class="dropdown-menu w-full absolute">
                     <div class="flex">
                         <div class="flex flex-wrap md:w-3/4 px-4">
@@ -98,8 +98,42 @@
                     </div>
                 </div>
             </div>
-            <div class="nav-item">
-                <a href="https://flyuk-design.dev">Crew Centre</a>
+            <div class="nav-item-small">
+                <a href="https://flyuk-design.dev">Crew Centre <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="">Crew Page</a></li>
+                    <li><a href="">Booked Flights</a></li>
+                    <li><a href="">Logbook</a></li>
+                    <li><a href="">Message Centre</a></li>
+                    <li><a href="">My Controls</a></li>
+                    <li><a href="">Pilot Handbook &amp; SOP</a></li>
+                    <li><a href="">SkyTrack &amp; Downloads</a></li>
+                </ul>
+            </div>
+            <div class="nav-item-small">
+                <a href="https://flyuk-design.dev">Online Flying &amp; Events <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="">Online Events</a></li>
+                    <li><a href="">Online Flying</a></li>
+                </ul>
+            </div>
+            <div class="nav-item-small">
+                <a href="https://flyuk-design.dev">Community <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="">Forums</a></li>
+                    <li><a href="">Screenshots &amp; Videos</a></li>
+                    <li><a href="">Teamspeak</a></li>
+                    <li><a href="">Pilot Rosters</a></li>
+                    <li><a href="">Offers &amp; Discounts</a></li>
+                    <li><a href="">Real World Events</a></li>
+                </ul>
+            </div>
+            <div class="nav-item-small">
+                <a href="https://flyuk-design.dev">Training Academy <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="">Courses &amp; Documents</a></li>
+                    <li><a href="">Help &amp; Support Forum</a></li>
+                </ul>
             </div>
         </div>
     </div>

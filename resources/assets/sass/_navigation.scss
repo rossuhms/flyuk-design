@@ -10,6 +10,7 @@ nav[role="main-navigation"] {
     }
     .nav-item-small {
         @include navStyles;
+        @apply .relative;
         &:hover {
             @apply .grey-gradient-invert .cursor-pointer;
         }

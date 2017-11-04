@@ -10,6 +10,7 @@
     <div id="app">
         @include('layouts.components.header')
         @include('layouts.components.nav')
+        @yield('homepage-additional')
         @yield('main-content')
     </div>
     <script src="{{ mix('js/app.js') }}"></script>

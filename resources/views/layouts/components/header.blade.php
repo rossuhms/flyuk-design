@@ -5,7 +5,7 @@
                 <span class="text-sm">@{{ currentTime }}</span>
             </div>
             <div class="md:w-1/2 text-white pt-2 text-sm">
-                <div class="flex flex-row justify-end">
+                <div class="flex flex-col md:flex-row lg:flex-row xl:flex-row justify-end">
                     <div class="mx-2">UKV1644 - Ross Queripel</div>
                     <div class="mx-2">Help</div>
                     <div class="mx-2">Staff CP</div>
@@ -19,7 +19,7 @@
                     <img src="https://flyuk.aero/en/images/logos/logo_ukv.png" alt="Fly UK logo">
                 </div>
             </div>
-            <div class="md:w-1/2 float-right text-right content-center mt-8">
+            <div class="hidden sm:hidden md:block lg:block xl:block md:w-1/2 float-right text-right content-center mt-8">
                 <div class="flex flex-row justify-end">
                     <div class="social-media-facebook mr-2"></div>
                     <div class="social-media-twitter mr-2"></div>

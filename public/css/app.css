@@ -586,6 +586,17 @@ a {
   color: #364349;
 }
 
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -665,6 +676,7 @@ nav[role="main-navigation"] .nav-item-small {
   padding-left: 1rem;
   padding-right: 1rem;
   font-weight: 400;
+  position: relative;
 }
 
 nav[role="main-navigation"] .nav-item-small:hover {
