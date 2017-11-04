@@ -1,5 +1,153 @@
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+$flyuk-blue: #111d41;
+$flyuk-lightgrey: #C1C4C8;
+$flyuk-darkgrey: #757B84;
+
+body 
+{
+  margin: 0;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
+}
+
+/* Layout Styles */
+
+header, .footer
+{
+    background-color: $flyuk-blue;
+    color: #FFFFFF;
+}
+.footer_partners
+{
+	background-color: $flyuk-lightgrey;
+}
+.footer_whosonline
+{
+    background-color: $flyuk-darkgrey;
+}
+.footer_whosonline h3
+{
+	color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0,0,0,1);
+}
+header a, .footer a
+{
+	color: #FFFFFF;
+}
+
+
+/* Primary Nav Bar Styles */
+
+.navbar {
+color: #FFFFFF;
+border-radius: 0 !important; /* Remove Rounded Corners */
+-moz-border-radius: 0 !important; /* Remove Rounded Corners */
+margin-bottom: 0px;
+border: 0px;
+/* IE10 Consumer Preview */
+background-image: -ms-linear-gradient(top, #FDFDFD 0%, #B9B9B9 100%);
+/* Mozilla Firefox */
+background-image: -moz-linear-gradient(top, #FDFDFD 0%, #B9B9B9 100%);
+/* Opera */
+background-image: -o-linear-gradient(top, #FDFDFD 0%, #B9B9B9 100%);
+/* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FDFDFD), color-stop(1, #B9B9B9));
+/* Webkit (Chrome 11+) */
+background-image: -webkit-linear-gradient(top, #FDFDFD 0%, #B9B9B9 100%);
+/* W3C Markup, IE10 Release Preview */
+background-image: linear-gradient(to bottom, #FDFDFD 0%, #B9B9B9 100%);
+}
+.navbar a{
+color: #000000;
+}
+.navbar-nav > li > a:hover {
+/* IE10 Consumer Preview */
+background-image: -ms-linear-gradient(top, #B9B9B9 0%, #FDFDFD 100%);
+/* Mozilla Firefox */
+background-image: -moz-linear-gradient(top, #B9B9B9 0%, #FDFDFD 100%);
+/* Opera */
+background-image: -o-linear-gradient(top, #B9B9B9 0%, #FDFDFD 100%);
+/* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #B9B9B9), color-stop(1, #FDFDFD));
+/* Webkit (Chrome 11+) */
+background-image: -webkit-linear-gradient(top, #B9B9B9 0%, #FDFDFD 100%);
+/* W3C Markup, IE10 Release Preview */
+background-image: linear-gradient(to bottom, #B9B9B9 0%, #FDFDFD 100%);
+}
+
+.dropdown-menu
+{
+min-width: 200px;
+border-top: 0px;
+}
+.dropdown-menu>li>a:hover
+{
+background-color: #EEEEEE;
+color: #000000;
+}
+.navbar-toggle {
+  border-color: darkgrey;
+  background-color: darkgrey;
+}
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+  background-color: #283E78;
+  border-color: #283E78;
+}
+.navbar-toggle .icon-bar 
+{
+  background-color: #ffffff;
+}
+
+
+/* Styles - Screensize Larger than 768px */
+
+@media (min-width: 768px) 
+{
+	/* Keeps nav bar left aligned */
+	.navbar-collapse 
+	{
+		padding-left: 0px;
+	}
+	
+	/* Enables nav bar dropdowns on hover */
+	.dropdown:hover .dropdown-menu
+	{
+	    display: block;
+	}
+}
+
+
+
+
+a.whos_online_block
+{
+    display: block;
+	color: white;
+	padding: 5px;
+}
+
+a:hover.whos_online_block
+{
+    background-color: #5E6268;
+	text-decoration: none;
+	cursor: pointer;
+	cursor: hand;
+    border-radius: 5px;
+	transition: all 1s ease 0s;
+}
+a.whos_online_block p
+{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+a.whos_online_block p.number
+{
+	font-size: 30px;
+}

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);@charset "UTF-8";
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -8348,5 +8348,139 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
+}
+
+/* Layout Styles */
+
+header,
+.footer {
+  background-color: #111d41;
+  color: #FFFFFF;
+}
+
+.footer_partners {
+  background-color: #C1C4C8;
+}
+
+.footer_whosonline {
+  background-color: #757B84;
+}
+
+.footer_whosonline h3 {
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px black;
+}
+
+header a,
+.footer a {
+  color: #FFFFFF;
+}
+
+/* Primary Nav Bar Styles */
+
+.navbar {
+  color: #FFFFFF;
+  border-radius: 0 !important;
+  /* Remove Rounded Corners */
+  -moz-border-radius: 0 !important;
+  /* Remove Rounded Corners */
+  margin-bottom: 0px;
+  border: 0px;
+  /* IE10 Consumer Preview */
+  /* Mozilla Firefox */
+  /* Opera */
+  /* Webkit (Safari/Chrome 10) */
+  /* Webkit (Chrome 11+) */
+  /* W3C Markup, IE10 Release Preview */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FDFDFD), to(#B9B9B9));
+  background-image: linear-gradient(to bottom, #FDFDFD 0%, #B9B9B9 100%);
+}
+
+.navbar a {
+  color: #000000;
+}
+
+.navbar-nav > li > a:hover {
+  /* IE10 Consumer Preview */
+  /* Mozilla Firefox */
+  /* Opera */
+  /* Webkit (Safari/Chrome 10) */
+  /* Webkit (Chrome 11+) */
+  /* W3C Markup, IE10 Release Preview */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#B9B9B9), to(#FDFDFD));
+  background-image: linear-gradient(to bottom, #B9B9B9 0%, #FDFDFD 100%);
+}
+
+.dropdown-menu {
+  min-width: 200px;
+  border-top: 0px;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #EEEEEE;
+  color: #000000;
+}
+
+.navbar-toggle {
+  border-color: darkgrey;
+  background-color: darkgrey;
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+  background-color: #283E78;
+  border-color: #283E78;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+/* Styles - Screensize Larger than 768px */
+
+@media (min-width: 768px) {
+  /* Keeps nav bar left aligned */
+
+  .navbar-collapse {
+    padding-left: 0px;
+  }
+
+  /* Enables nav bar dropdowns on hover */
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+a.whos_online_block {
+  display: block;
+  color: white;
+  padding: 5px;
+}
+
+a:hover.whos_online_block {
+  background-color: #5E6268;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
+  border-radius: 5px;
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
+}
+
+a.whos_online_block p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+a.whos_online_block p.number {
+  font-size: 30px;
 }
 
