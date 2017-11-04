@@ -86,7 +86,7 @@
                             </div>
                             <div class="rounded border border-grey-light p-1 hover:border-blue-light cursor-pointer mb-4">
                                 <div class="flex-none p-2 rounded bg-grey-lighter text-center">
-                                    Fleet Center
+                                    Fleet Centre
                                 </div>
                             </div>
                             <div class="rounded border border-grey-light p-1 hover:border-blue-light cursor-pointer mb-4">
