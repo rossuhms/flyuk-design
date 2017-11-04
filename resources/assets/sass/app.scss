@@ -1,8 +1,5 @@
-@tailwind preflight;
-/**
- * Custom styling / components.
- */
-@import 'grid';
-@import 'socialMediaIcons';
-@import 'backgrounds';
-@tailwind utilities;
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
