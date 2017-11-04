@@ -6,7 +6,7 @@
     <title>@yield('page-title') Fly UK Virtual Airways</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
-<body class="font-normal">
+<body class="font-normal bg-grey-lighter">
     <div id="app">
         @include('layouts.components.header')
         @include('layouts.components.nav')

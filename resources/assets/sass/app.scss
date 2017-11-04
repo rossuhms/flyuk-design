@@ -2,7 +2,9 @@
 /**
  * Custom styling / components.
  */
+@import 'typography';
 @import 'grid';
 @import 'socialMediaIcons';
 @import 'backgrounds';
+@import 'navigation';
 @tailwind utilities;
