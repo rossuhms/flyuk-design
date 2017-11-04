@@ -8356,8 +8356,6 @@ body {
   line-height: 1.5;
 }
 
-/* Layout Styles */
-
 header,
 .footer {
   background-color: #111d41;
@@ -8377,16 +8375,13 @@ header a,
   color: #FFFFFF;
 }
 
-/* Primary Nav Bar Styles */
-
 .navbar {
-  color: #FFFFFF;
+  margin-bottom: 0px;
+  border: 0px;
   border-radius: 0 !important;
   /* Remove Rounded Corners */
   -moz-border-radius: 0 !important;
   /* Remove Rounded Corners */
-  margin-bottom: 0px;
-  border: 0px;
   /* IE10 Consumer Preview */
   /* Mozilla Firefox */
   /* Opera */
@@ -8437,8 +8432,6 @@ header a,
   background-color: #ffffff;
 }
 
-/* Styles - Screensize Larger than 768px */
-
 @media (min-width: 768px) {
   /* Keeps nav bar left aligned */
 
@@ -8453,12 +8446,9 @@ header a,
   }
 }
 
-/* Who's Online Styles */
-
 .footer_whosonline h3 {
   color: #FFFFFF;
   text-shadow: 1px 1px 1px black;
-  text-align: center;
 }
 
 a.whos_online_block {
@@ -8486,8 +8476,6 @@ a.whos_online_block p {
 a.whos_online_block p.number {
   font-size: 30px;
 }
-
-/* Social Icons Styles */
 
 .social-media-facebook {
   cursor: pointer;

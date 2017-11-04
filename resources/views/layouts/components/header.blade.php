@@ -12,7 +12,7 @@
 			
 		<div class="row">	
 			<div class="col-sm-6">
-				<img src="https://flyuk.aero/en/images/logos/logo_ukv.png" class="img-fluid" alt="Fly UK logo">
+				<img src="https://flyuk.aero/en/images/logos/logo_ukv.png" class="img-fluid" alt="Fly UK VA Logo">
 			</div>
 			<div class="col-sm-6">
 				<div class="social-media-facebook"></div>

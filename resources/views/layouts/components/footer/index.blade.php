@@ -7,7 +7,7 @@
 	<div class="footer">
 		<div class="container">
 			<p><a href="#">Help & Contact Us</a> | <a href="#">Website Terms</a> | <a href="#">Cookies & Privacy Policy</a></p>
-			<p>&copy; Copyright 2015 - Fly UK Virtual Airways</p>
+			<p>&copy; Copyright @{{ currentYear }} - Fly UK Virtual Airways</p>
 		</div>
 	</div>
 

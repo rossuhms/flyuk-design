@@ -18,6 +18,6 @@
     </div>
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="/js/owl-carousel/dist/owl.carousel.min.js"></script>
-    
+
 </body>
 </html>
