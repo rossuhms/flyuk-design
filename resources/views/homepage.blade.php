@@ -116,4 +116,44 @@
         </div>
     </div>
 </div> <!-- / end of upcomfing online events -->
+<div class="container mx-auto mt-6">
+    <div class="flex flex-col">
+        <div class="flex flex-row w-full border-b border-dashed border-grey mb-8 pb-4">
+            <div class="w-1/4">
+                <img src="https://flyuk.aero/en/images/home_features/rome.jpg" width="330" height="150" alt="">
+            </div>
+            <div class="w-3/4 ml-12">
+                <h2 class="font-light">Featured Destination - Rome</h2>
+                <p class="mt-4 text-grey-dark font-light leading-normal">
+                    Rome, the Eternal City, is the capital and largest city of Italy. It's the famed city of the Roman Empire, the Seven Hills, La Dolce Vita , the Vatican City and Three Coins in the Fountain.
+                    <br /><br />
+                    Fly UK operates a number of daily A320 &amp; B737 services to Rome from Heathrow, Manchester and Edinburgh. B777 operates an early service on Tuesday, Thursday and Saturday.
+                </p>
+            </div>
+        </div>
+        <div class="flex flex-row w-full border-b border-dashed border-grey mb-8 pb-4">
+            <div class="w-1/4">
+                <img src="https://flyuk.aero/en/images/home_features/metro.jpg" width="330" height="150" alt="">
+            </div>
+            <div class="w-3/4 ml-12">
+                <h2 class="font-light">America's waiting for you</h2>
+                <p class="mt-4 text-grey-dark font-light leading-normal">
+                    Explore the fabulous USA with flights from Los Angeles, Chicago, Baltimore and Kansas City. With our Codeshare partner MetroAir you can fly the B777, A330, B787, B757, A319, A230, E170 & DHC8-Q400.
+                </p>
+            </div>
+        </div>
+        <div class="flex flex-row w-full mb-8 pb-4">
+            <div class="w-1/4">
+                <img src="https://flyuk.aero/en/images/home_features/skytrack_map.jpg" width="330" height="150" alt="">
+            </div>
+            <div class="w-3/4 ml-12">
+                <h2 class="font-light">SkyTrack Map - Track flights live!</h2>
+                <p class="mt-4 text-grey-dark font-light leading-normal">
+                    Who's flying where? Take a look at the new SkyTrack Live Map to view all of the live flights being flown, and even track
+                    your own in-flight!
+                </p>
+            </div>
+        </div>
+    </div>
+</div> <!-- / end of featured -->
 @endsection
