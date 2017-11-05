@@ -40,7 +40,7 @@
                     <td>B763</td>
                     <td>Schedule</td>
                     <td>
-                        <a href="#" class="align-middle p-2 px-3 bg-grey-darker border border-grey-darkest hover:bg-grey-darkest hover:border-grey-darker  text-white rounded">Book</a>
+                        <a href="#" class="align-middle bg-white hover:bg-grey-dark text-grey-dark font-semibold hover:text-white p-2 border border-grey-dark hover:border-transparent rounded">Book</a>
                     </td>
                 </tr><tr>
                     <td><a href="" data-toggle="modal" data-target="#flightModal" data-flight="69882">FL142</a></td>
@@ -57,7 +57,7 @@
                     <td>B738</td>
                     <td>Schedule</td>
                     <td>
-                        <a href="#" class="align-middle p-2 px-3 bg-grey-darker border border-grey-darkest hover:bg-grey-darkest hover:border-grey-darker  text-white rounded">Book</a>
+                        <a href="#" class="align-middle bg-white hover:bg-grey-dark text-grey-dark font-semibold hover:text-white p-2 border border-grey-dark hover:border-transparent rounded">Book</a>
                     </td>
                 </tr><tr>
                     <td><a href="" data-toggle="modal" data-target="#flightModal" data-flight="69922">FL148</a></td>
@@ -74,7 +74,7 @@
                     <td>B738</td>
                     <td>Schedule</td>
                     <td>
-                        <a href="#" class="align-middle p-2 px-3 bg-grey-darker border border-grey-darkest hover:bg-grey-darkest hover:border-grey-darker  text-white rounded">Book</a>
+                        <a href="#" class="align-middle bg-white hover:bg-grey-dark text-grey-dark font-semibold hover:text-white p-2 border border-grey-dark hover:border-transparent rounded">Book</a>
                     </td>
                 </tr>
                 <tr>
@@ -92,7 +92,7 @@
                     <td>B738</td>
                     <td>Schedule</td>
                     <td>
-                        <a href="#" class="align-middle p-2 px-3 bg-grey-darker border border-grey-darkest hover:bg-grey-darkest hover:border-grey-darker  text-white rounded">Book</a>
+                        <a href="#" class="align-middle bg-white hover:bg-grey-dark text-grey-dark font-semibold hover:text-white p-2 border border-grey-dark hover:border-transparent rounded">Book</a>
                     </td>
                 </tr>
             </tbody></table>
