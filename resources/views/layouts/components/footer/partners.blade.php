@@ -1,4 +1,4 @@
-<div class="w-full bg-grey-light text-white">
+<div class="w-full bg-grey-light text-white hidden md:block">
     <div class="container mx-auto py-8">
         <div class="partners-carousel owl-carousel owl-theme flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row">
             <div class="partners">

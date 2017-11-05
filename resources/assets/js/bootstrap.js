@@ -29,8 +29,6 @@ try {
         autoplay: true,
         autoplayTimeout: 4000,
         autoplayHoverPause: true,
-        autoWidth: false,
-        responsive: false,
         dots: false
       });
     });

@@ -1,6 +1,6 @@
 <nav role="main-navigation" class="grey-gradient w-full h-12 text-sm">
     <div class="container px-8 mx-auto relative">
-        <div class="flex items-center flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row">
+        <div class="hidden sm:hidden md:flex md:flex-row">
             <div class="nav-item">
                 <a href="https://flyuk-design.dev">Home</a>
             </div>

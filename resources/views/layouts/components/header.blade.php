@@ -5,7 +5,7 @@
                 <span class="text-sm">@{{ currentTime }}</span>
             </div>
             <div class="md:w-1/2 text-white pt-2 text-sm">
-                <div class="flex flex-col md:flex-row lg:flex-row xl:flex-row justify-end">
+                <div class="hidden md:flex md:flex-row justify-end">
                     <div class="mx-2">UKV1644 - Ross Queripel</div>
                     <div class="mx-2">Help</div>
                     <div class="mx-2">Staff CP</div>

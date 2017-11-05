@@ -4,11 +4,11 @@
 @endsection
 @section('main-content')
 <div class="container mx-auto mt-6">
-    <div class="flex flex-col md:flex-row lg:flex-row xl:flex-row">
-        <div class="w-3/5 mr-4">
+    <div class="flex flex-col justify-center md:flex-row lg:flex-row xl:flex-row">
+        <div class="w-full md:w-3/5 mr-4">
             <h1 class="font-light">Latest News</h1>
             <div class="news-item border-b border-dashed border-grey">
-                <div class="w-auto">
+                <div class="w-auto hidden md:block">
                     <img src="https://flyuk.aero/en/images/menu_images/topa.png" alt="">
                 </div>
                 <div class="meta-data">
@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="news-item border-b border-dashed border-grey">
-                <div class="w-auto">
+                <div class="w-auto hidden md:block">
                     <img src="https://flyuk.aero/en/images/menu_images/mainstream.png" alt="">
                 </div>
                 <div class="meta-data">
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="news-item border-b border-dashed border-grey">
-                <div class="w-auto">
+                <div class="w-auto hidden md:block">
                     <img src="https://flyuk.aero/en/images/menu_images/hc.png" alt="">
                 </div>
                 <div class="meta-data">
@@ -119,7 +119,7 @@
 <div class="container mx-auto mt-6">
     <div class="flex flex-col">
         <div class="flex flex-row w-full border-b border-dashed border-grey mb-8 pb-4">
-            <div class="w-1/4">
+            <div class="w-1/4 hidden sm:hidden md:block lg:block xl:block">
                 <img src="https://flyuk.aero/en/images/home_features/rome.jpg" width="330" height="150" alt="">
             </div>
             <div class="w-3/4 ml-12">
@@ -132,7 +132,7 @@
             </div>
         </div>
         <div class="flex flex-row w-full border-b border-dashed border-grey mb-8 pb-4">
-            <div class="w-1/4">
+            <div class="w-1/4 hidden sm:hidden md:block lg:block xl:block">
                 <img src="https://flyuk.aero/en/images/home_features/metro.jpg" width="330" height="150" alt="">
             </div>
             <div class="w-3/4 ml-12">
@@ -143,7 +143,7 @@
             </div>
         </div>
         <div class="flex flex-row w-full mb-8 pb-4">
-            <div class="w-1/4">
+            <div class="w-1/4 hidden sm:hidden md:block lg:block xl:block">
                 <img src="https://flyuk.aero/en/images/home_features/skytrack_map.jpg" width="330" height="150" alt="">
             </div>
             <div class="w-3/4 ml-12">
