@@ -59716,10 +59716,18 @@ try {
   window.moment = __webpack_require__("./node_modules/moment/moment.js");
   window.owlCarousel = __webpack_require__("./node_modules/owl.carousel/dist/owl.carousel.js");
 
-  /** Initalize Owl Carousel */
+  /** Initalize Owl Carousel for homepage main banner */
   $(document).ready(function () {
     $('.homepage-carousel').owlCarousel({
       items: 1,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 4000,
+      autoplayHoverPause: true,
+      dots: false
+    });
+    $('.homepage-events-carousel').owlCarousel({
+      items: 2,
       loop: true,
       autoplay: true,
       autoplayTimeout: 4000,

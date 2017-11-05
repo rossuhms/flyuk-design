@@ -74,5 +74,46 @@
             </div>
         </div>
     </div>
-</div>
+</div> <!-- / end of latest news & statistics -->
+<div class="w-full bg-grey-light my-16">
+    <div class="container mx-auto py-8" style="height: 400px">
+        <div class="w-full">
+            <h1 class="font-light">Upcoming Online Events</h1>
+            <div class="homepage-events-carousel owl-carousel owl-theme flex flex-row items-center justify-center mt-4">
+                <div class="flex flex-col mx-1">
+                    <div class="block bg-white p-2">
+                        <img src="https://flyuk.aero/en/images/events/1322544388RometoSamos.jpg" class="fillContainer" alt="Rome to Samos">
+                    </div>
+                    <div class="block bg-white p-2 mt-2">
+                        Thu, 16th Nov 2017 at 1400z - VATSIM
+                    </div>
+                </div>
+                <div class="flex flex-col mx-1">
+                    <div class="block bg-white p-2">
+                        <img src="https://flyuk.aero/en/images/events/316029328Naples.jpg" class="fillContainer" alt="Rome to Samos">
+                    </div>
+                    <div class="block bg-white p-2 mt-2">
+                        Thu, 16th Nov 2017 at 1400z - VATSIM
+                    </div>
+                </div>
+                <div class="flex flex-col mx-1">
+                    <div class="block bg-white p-2">
+                        <img src="https://flyuk.aero/en/images/events/1290160013Edinburgh%20to%20Jersey.jpg" class="fillContainer" alt="Rome to Samos">
+                    </div>
+                    <div class="block bg-white p-2 mt-2">
+                        Thu, 16th Nov 2017 at 1400z - VATSIM
+                    </div>
+                </div>
+                <div class="flex flex-col mx-1">
+                    <div class="block bg-white p-2">
+                        <img src="https://flyuk.aero/en/images/events/1595678697Thailand.jpg" class="fillContainer" alt="Rome to Samos">
+                    </div>
+                    <div class="block bg-white p-2 mt-2">
+                        Thu, 16th Nov 2017 at 1400z - VATSIM
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- / end of upcomfing online events -->
 @endsection
