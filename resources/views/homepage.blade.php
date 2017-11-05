@@ -156,4 +156,74 @@
         </div>
     </div>
 </div> <!-- / end of featured -->
+<div class="container mx-auto mt-6">
+    <div class="flex flex-row justify-center">
+        <div class="w-full">
+            <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Flight</th>
+                            <th>Departing</th>
+                            <th>Duration</th>
+                            <th>Arriving</th>
+                            <th>Mon</th>
+                            <th>Tue</th>
+                            <th>Wed</th>
+                            <th>Thu</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                            <th>Sun</th>
+                            <th>Aircraft</th>
+                            <th>Type</th>
+                            <th>Book</th>
+                        </tr>
+                    </thead><tbody><tr>
+                                <td><a href="" data-toggle="modal" data-target="#flightModal" data-flight="69698">FL114</a></td>
+                                <td><strong>EGPH</strong> (0810z)<br />Edinburgh</td>
+                                <td>01:25</td>
+                                <td><strong>EGLL</strong> (0935z)<br />London</td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td>B763</td>
+                                <td>Schedule</td>
+                                <td><a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-target="#bookModal" data-bookflight="69698">Book</a></td>
+                            </tr><tr>
+                                <td><a href="" data-toggle="modal" data-target="#flightModal" data-flight="69882">FL142</a></td>
+                                <td><strong>EGPH</strong> (1710z)<br />Edinburgh</td>
+                                <td>01:20</td>
+                                <td><strong>EGLL</strong> (1830z)<br />London</td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td>B738</td>
+                                <td>Schedule</td>
+                                <td><a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-target="#bookModal" data-bookflight="69882">Book</a></td>
+                            </tr><tr>
+                                <td><a href="" data-toggle="modal" data-target="#flightModal" data-flight="69922">FL148</a></td>
+                                <td><strong>EGPH</strong> (1330z)<br />Edinburgh</td>
+                                <td>01:20</td>
+                                <td><strong>EGLL</strong> (1450z)<br />London</td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td><img src="https://flyuk.aero/en/images/icons/fly.png" alt="Fly Icon" /></td>
+                                <td>B738</td>
+                                <td>Schedule</td>
+                                <td><a href="#" class="btn btn-sm btn-default" data-toggle="modal" data-target="#bookModal" data-bookflight="69922">Book</a></td>
+                            </tr></tbody></table>
+        </div>
+    </div>
+</div>
 @endsection

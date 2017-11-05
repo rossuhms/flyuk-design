@@ -1,4 +1,4 @@
-<div class="hidden sm:hidden md:flex homepage-carousel owl-carousel owl-theme w-full m-0 p-0 z-0">
+<div class="flex homepage-carousel owl-carousel owl-theme w-full m-0 p-0 z-0">
     <div class="w-full">
         <div class="container mx-auto relative">
             <div class="flex flex-col justify-end w-auto text-white mt-8 pt-8 absolute pin-r z-20">
@@ -35,7 +35,7 @@
         <img src="https://flyuk.aero/assets/images/home_banners/hp4.jpg" class="fillContainer">
     </div>
 </div>
-<div class="w-full bg-turquoise text-white -mt-1 hidden sm:hidden md:flex">
+<div class="w-full bg-turquoise text-white -mt-1 flex">
     <div class="container mx-auto px-8 p-6 text-xl">
         <span class="font-bold">Ready to fly? - </span>
         <span>
