@@ -19,7 +19,7 @@ nav[role="main-navigation"] {
         }
 
         .dropdown-menu {
-            @apply .absolute .w-48 .bg-white .border-b .border-l .border-r .border-grey-light .shadow;
+            @apply .absolute .w-48 .bg-white .border-b .border-l .border-r .border-grey-light .shadow .z-30;
             top: 100%;
             left: 0;
             margin: 0;
@@ -44,7 +44,7 @@ nav[role="main-navigation"] {
         }
 
         .dropdown-menu {
-            @apply .bg-white .border-b .border-l .border-r .border-grey-light .shadow;
+            @apply .bg-white .border-b .border-l .border-r .border-grey-light .shadow .z-30;
             top: 100%;
             left: 0;
             margin: 0;
