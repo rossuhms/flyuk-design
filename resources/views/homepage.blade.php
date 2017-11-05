@@ -76,7 +76,7 @@
     </div>
 </div> <!-- / end of latest news & statistics -->
 <div class="w-full bg-grey-light my-16">
-    <div class="container mx-auto py-8" style="height: 400px">
+    <div class="container mx-auto py-8">
         <div class="w-full">
             <h1 class="font-light">Upcoming Online Events</h1>
             <div class="homepage-events-carousel owl-carousel owl-theme flex flex-row items-center justify-center mt-4">

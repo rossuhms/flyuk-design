@@ -1,0 +1,15 @@
+/**
+ * Whos Online
+ */
+.whos-online-source {
+    @apply .flex-1 .mr-12 .rounded .p-4 .cursor-pointer;
+    &:hover {
+        @apply .bg-grey-darker;
+    }
+}
+/**
+ * Partners carousel
+ */
+.partners {
+    @apply .flex-1 .w-32;
+}

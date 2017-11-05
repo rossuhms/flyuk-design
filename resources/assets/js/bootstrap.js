@@ -23,6 +23,16 @@ try {
         autoplayHoverPause: true,
         dots: false
       });
+      $('.partners-carousel').owlCarousel({
+        items: 5,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        autoWidth: false,
+        responsive: false,
+        dots: false
+      });
     });
 } catch (e) {}
 

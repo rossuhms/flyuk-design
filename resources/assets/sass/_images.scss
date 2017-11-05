@@ -1,6 +1,12 @@
 img.fit {
     max-width: 100%;
 }
+img.grey-hover {
+    filter: grayscale(100%);
+    &:hover {
+        filter: grayscale(0%);
+    }
+}
 .fillContainer {
     max-width: 100%;
     max-height: 100%;

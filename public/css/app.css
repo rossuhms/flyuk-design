@@ -962,6 +962,16 @@ img.fit {
   max-width: 100%;
 }
 
+img.grey-hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+img.grey-hover:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
 .fillContainer {
   max-width: 100%;
   max-height: 100%;
@@ -1001,6 +1011,33 @@ img.fit {
 .news-item .meta-data .summary {
   width: auto;
   display: inline-block;
+}
+
+/**
+ * Whos Online
+ */
+.whos-online-source {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 3rem;
+  border-radius: .25rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.whos-online-source:hover {
+  background-color: #596a73;
+}
+
+/**
+ * Partners carousel
+ */
+.partners {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 8rem;
 }
 
 .container {
