@@ -1,0 +1,18 @@
+.news-item {
+    @apply .flex .w-full .pt-4 .pb-2;
+
+    img {
+        width: 65px;
+        height: 50px;
+    }
+
+    .meta-data {
+        @apply .w-auto .ml-4 .text-grey-dark .font-light;
+        .date {
+            @apply .w-auto .inline-block .pt-2;
+        }
+        .summary {
+            @apply .w-auto .inline-block;
+        }
+    }
+}

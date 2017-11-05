@@ -8,4 +8,11 @@
 @import 'backgrounds';
 @import 'navigation';
 @import 'images';
+@import 'homepage';
 @tailwind utilities;
+
+/**
+ * Addons
+ */
+@import '~owl.carousel/dist/assets/owl.carousel.min.css';
+@import '~owl.carousel/dist/assets/owl.theme.default.min.css';

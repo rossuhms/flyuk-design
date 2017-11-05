@@ -1,6 +1,12 @@
 a {
     @apply .no-underline .text-grey-darkest;
 }
+a.white {
+    @apply .text-white;
+    &:hover {
+        @apply .text-grey-darkest;
+    }
+}
 .caret {
     display: inline-block;
     width: 0;
