@@ -3,6 +3,61 @@ window._ = require('lodash');
 try {
     window.$ = window.jQuery = require('jquery');
     window.moment = require('moment');
+    window.owlCarousel = require('owl.carousel');
+
+    /** Initalize Owl Carousel for homepage main banner */
+    $(document).ready(function(){
+      $('.homepage-carousel').owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        dots: false
+      });
+
+        $('.events-carousel').owlCarousel({
+            loop:true,
+            dots: true,
+            margin:15,
+            nav:false,
+            autoplay: true,
+            autoplayTimeout:4000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:2
+                }
+            }
+        });
+
+      $('.partners-carousel').owlCarousel({
+        loop: true,  
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        dots: false,
+        navigation: false,
+        responsive:{
+            0:{
+                items:2
+            },
+            600:{
+                items:4
+            },
+            1000:{
+                items:6
+            }
+        }
+      });
+    });
 } catch (e) {}
 
 /**

@@ -2,7 +2,7 @@
 @section('main-content')
 <div class="container">
 	<div class="row">
-		<p>Homepage Carousel</p>
+		To Do
 	</div>
 </div>
 
@@ -96,6 +96,46 @@
 <div class="banner_home_events">
 	<div class="container">
 		<h1>Upcoming Online Events</h1>
+
+		<div class="events-carousel owl-carousel owl-theme">
+			<div class='item'>
+				<a href='index.php?page=event_info&amp;id=1521'>
+					<img style='border: 10px solid white; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);' class='img-responsive' src='http://www.flyuk.aero/en/images/events/1290160013Edinburgh to Jersey.jpg' alt='Event Image'>
+				</a>
+				<div style='padding: 10px; background: #FFFFFF; color: #7A7A7A; font-weight: bold;'>
+					<span class='glyphicon glyphicon-time' aria-hidden='true'></span>&nbsp;&nbsp;Tue, 07 Nov 2017 at 1930z - VATSIM
+				</div>
+			</div>
+			
+			<div class='item'>
+				<a href='index.php?page=event_info&amp;id=1576'>
+					<img style='border: 10px solid white; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);' class='img-responsive' src='http://www.flyuk.aero/en/images/events/1595678697Thailand.jpg' alt='Event Image'>
+				</a>
+				<div style='padding: 10px; background: #FFFFFF; color: #7A7A7A; font-weight: bold;'>
+					<span class='glyphicon glyphicon-time' aria-hidden='true'></span>&nbsp;&nbsp;Wed, 08 Nov 2017 at 1915z - FSD Server
+				</div>
+			</div>
+
+			<div class='item'>
+				<a href='index.php?page=event_info&amp;id=1521'>
+					<img style='border: 10px solid white; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);' class='img-responsive' src='http://www.flyuk.aero/en/images/events/1290160013Edinburgh to Jersey.jpg' alt='Event Image'>
+				</a>
+				<div style='padding: 10px; background: #FFFFFF; color: #7A7A7A; font-weight: bold;'>
+					<span class='glyphicon glyphicon-time' aria-hidden='true'></span>&nbsp;&nbsp;Tue, 07 Nov 2017 at 1930z - VATSIM
+				</div>
+			</div>
+			
+			<div class='item'>
+				<a href='index.php?page=event_info&amp;id=1576'>
+					<img style='border: 10px solid white; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);' class='img-responsive' src='http://www.flyuk.aero/en/images/events/1595678697Thailand.jpg' alt='Event Image'>
+				</a>
+				<div style='padding: 10px; background: #FFFFFF; color: #7A7A7A; font-weight: bold;'>
+					<span class='glyphicon glyphicon-time' aria-hidden='true'></span>&nbsp;&nbsp;Wed, 08 Nov 2017 at 1915z - FSD Server
+				</div>
+			</div>
+
+		</div>
+
 	</div>
 </div>
 
