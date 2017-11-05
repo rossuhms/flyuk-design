@@ -36,7 +36,7 @@
     </div>
 </div>
 <div class="w-full bg-turquoise text-white -mt-1 flex">
-    <div class="container mx-auto px-8 p-6 text-xl">
+    <div class="container mx-auto py-6 text-xl">
         <span class="font-bold">Ready to fly? - </span>
         <span>
             <a href="" class="white">Schedule</a>,

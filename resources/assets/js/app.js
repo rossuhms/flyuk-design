@@ -16,7 +16,7 @@ const app = new Vue({
     },
     mounted() {
         setInterval(() => {
-            this.currentTime = moment().utc().format('ddd, do MMM YYYY - HH:mm:ss');
+            this.currentTime = moment().utc().format('ddd, Do MMM YYYY - HH:mm:ss');
         },1000);
 
         /**

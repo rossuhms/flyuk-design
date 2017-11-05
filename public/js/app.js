@@ -59699,7 +59699,7 @@ var app = new Vue({
         var _this = this;
 
         setInterval(function () {
-            _this.currentTime = moment().utc().format('ddd, do MMM YYYY - HH:mm:ss');
+            _this.currentTime = moment().utc().format('ddd, Do MMM YYYY - HH:mm:ss');
         }, 1000);
 
         /**
