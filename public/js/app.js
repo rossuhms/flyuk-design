@@ -59701,6 +59701,13 @@ var app = new Vue({
         setInterval(function () {
             _this.currentTime = moment().utc().format('ddd, do MMM YYYY - HH:mm:ss');
         }, 1000);
+
+        /**
+         * Manage responsive navigation.
+         */
+        $('#toggle-mobile-menu').click(function () {
+            $('#main-navigation').toggleClass('w-full flex flex-col grey-gradient z-30 absolute pin-l pin-t').slide(700);
+        });
     }
 });
 

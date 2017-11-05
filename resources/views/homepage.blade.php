@@ -35,7 +35,7 @@
                     </span>
                 </div>
             </div>
-            <div class="news-item border-b border-dashed border-grey">
+            <div class="news-item">
                 <div class="w-auto hidden md:block">
                     <img src="https://flyuk.aero/en/images/menu_images/hc.png" alt="">
                 </div>
@@ -53,21 +53,21 @@
         <div class="w-2/5">
             <h1 class="font-light">Today's Statistics</h1>
             <div class="flex flex-row pt-4">
-                <div class="w-1/2 mx-8 bg-grey-dark text-white text-center p-4">
+                <div class="w-1/2 mx-8 bg-grey-dark text-white text-center p-4 hover:bg-grey-darker cursor-pointer">
                     <span class="block text-sm">Total Hours</span>
                     <span class="block text-3xl pt-4">90:43</span>
                 </div>
-                <div class="w-1/2 mx-8 bg-grey-dark text-white text-center p-4">
+                <div class="w-1/2 mx-8 bg-grey-dark text-white text-center p-4 hover:bg-grey-darker cursor-pointer">
                     <span class="block text-sm">Total PIREPs</span>
                     <span class="block text-3xl pt-4">61</span>
                 </div>
             </div>
             <div class="flex flex-row mt-6">
-                <div class="w-1/2 mx-8 bg-grey-dark text-white text-center p-4">
+                <div class="w-1/2 mx-8 bg-grey-dark text-white text-center p-4 hover:bg-grey-darker cursor-pointer">
                     <span class="block text-sm">Unique PIlots</span>
                     <span class="block text-3xl pt-4">42</span>
                 </div>
-                <div class="w-1/2 mx-8 bg-grey-dark text-white text-center p-4">
+                <div class="w-1/2 mx-8 bg-grey-dark text-white text-center p-4 hover:bg-grey-darker cursor-pointer">
                      <span class="block text-sm">New Members</span>
                     <span class="block text-3xl pt-4">4</span>
                 </div>

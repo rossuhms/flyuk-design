@@ -1,6 +1,10 @@
 <nav role="main-navigation" class="grey-gradient w-full h-12 text-sm">
+    <label class="block md:hidden cursor-pointer">
+        @include('svg.menu', ['class' => 'absolute pin-r pt-3 mr-2 w-6 text-blue-primary z-60'])
+        <input id="toggle-mobile-menu" type="checkbox" class="hidden toggle-mobile-menu">
+    </label>
     <div class="container px-8 mx-auto relative">
-        <div class="hidden sm:hidden md:flex md:flex-row">
+        <div class="main-navigation hidden sm:hidden md:flex md:flex-row" id="main-navigation">
             <div class="nav-item">
                 <a href="https://flyuk-design.dev">Home</a>
             </div>
