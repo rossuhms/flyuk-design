@@ -8449,6 +8449,9 @@ header a,
 .footer_whosonline h3 {
   color: #FFFFFF;
   text-shadow: 1px 1px 1px black;
+  text-align: center;
+  margin: 0;
+  padding-top: 25px;
 }
 
 a.whos_online_block {
@@ -8478,6 +8481,7 @@ a.whos_online_block p.number {
 }
 
 .social-media-facebook {
+  float: right;
   cursor: pointer;
   width: 39px;
   height: 39px;
@@ -8489,6 +8493,7 @@ a.whos_online_block p.number {
 }
 
 .social-media-twitter {
+  float: right;
   cursor: pointer;
   width: 39px;
   height: 39px;
@@ -8500,6 +8505,7 @@ a.whos_online_block p.number {
 }
 
 .social-media-youtube {
+  float: right;
   cursor: pointer;
   width: 39px;
   height: 39px;
@@ -8525,5 +8531,71 @@ a.whos_online_block p.number {
 
 .banner_home_events {
   background: lightgrey;
+}
+
+.logo {
+  margin: auto;
+  display: block;
+}
+
+.date_time,
+.header_nav,
+.social_links,
+.footer {
+  text-align: center;
+}
+
+a.home-stat {
+  background: #757B84;
+  /* Old browsers */
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  color: #ffffff;
+}
+
+a:hover.home-stat {
+  background: #5E6268;
+  /* Old browsers */
+  text-decoration: none;
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
+}
+
+.home-stat p {
+  margin-bottom: 0px;
+  font-size: 13px;
+  padding-top: 15px;
+  text-shadow: 1px 1px 1px black;
+}
+
+@media (min-width: 500px) {
+  .date_time,
+  .footer,
+  .footer_whosonline h3 {
+    text-align: left;
+  }
+
+  .footer_whosonline h3 {
+    margin-top: 0;
+  }
+
+  .header_nav {
+    text-align: right;
+  }
+
+  .social_links {
+    text-align: right;
+    float: right;
+  }
+
+  .logo {
+    float: left;
+  }
+
+  a.home-stat {
+    margin-bottom: 25px;
+  }
 }
 

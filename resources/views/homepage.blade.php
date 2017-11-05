@@ -2,7 +2,7 @@
 @section('main-content')
 <div class="container">
 	<div class="row">
-		<p>Homepage Carouel</p>
+		<p>Homepage Carousel</p>
 	</div>
 </div>
 
@@ -13,79 +13,83 @@
 </div>
 
 <div class="container home-news-stats spacer">
-
-<div class="row">
-
-
-
+	<div class="row">
 		<div class="col-md-8">
 			<h1>Latest News</h1>
 			<div class="media news-item">
-  <div class="media-left">
-    <a href="index.php?page=press_release&amp;id=907">
-      <img class="media-object" style="width: 65px; height: 50px;" src="https://flyuk.aero/en/images/menu_images/topa.png" alt="...">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading"><a href="index.php?page=press_release&amp;id=907" title="Read More...">Topa Sky Launch</a></h4>
-    01,  Nov 2017 - Time to explore Oceania and the South Pacific
-  </div>
-</div><div class="media news-item">
-  <div class="media-left">
-    <a href="index.php?page=press_release&amp;id=906">
-      <img class="media-object" style="width: 65px; height: 50px;" src="https://flyuk.aero/en/images/menu_images/mainstream.png" alt="...">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading"><a href="index.php?page=press_release&amp;id=906" title="Read More...">Bombardier CRJ700 now avaliable</a></h4>
-    16,  Oct 2017 - The CRJ700 joins the fleet
-  </div>
-</div><div class="media news-item">
-  <div class="media-left">
-    <a href="index.php?page=press_release&amp;id=905">
-      <img class="media-object" style="width: 65px; height: 50px;" src="https://flyuk.aero/en/images/menu_images/hc.png" alt="...">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading"><a href="index.php?page=press_release&amp;id=905" title="Read More...">B1900D Delivery Flights</a></h4>
-    07,  Oct 2017 - Changes to the Highland Connect Fleet
-  </div>
-</div>		</div>
-
-		
-		<div class="col-md-4">
-			<h1>Today's Statistics</h1>
-
-			<div class="row">
-				<div class="col-md-6 col-sm-6">
-					<a href="index.php?page=flight_operations#report" class="home-stat">
-						<p>Total Hours</p>
-						<span style="font-size: 35px;">323:16</span>
-					</a>
-				</div>
-				<div class="col-md-6 col-sm-6">
-					<a href="index.php?page=flight_operations#report" class="home-stat">
-						<p>Total PIREPs</p>
-						<span style="font-size: 35px;">207</span>
-					</a>
-				</div>
-				<div class="col-md-6 col-sm-6">
-					<a href="index.php?page=flight_operations#report" class="home-stat">
-						<p>Unique Pilots</p>
-						<span style="font-size: 35px;">133</span>
-					</a>
-				</div>
-				<div class="col-md-6 col-sm-6">
-					<a href="index.php?page=flight_operations#report" class="home-stat">
-						<p>New Members</p>
-						<span style="font-size: 35px; margin-top: 0px;">3</span>
-					</a>
-				</div>
+ 				<div class="media-left">
+    				<a href="index.php?page=press_release&amp;id=907">
+      					<img class="media-object" style="width: 65px; height: 50px;" src="https://flyuk.aero/en/images/menu_images/topa.png" alt="...">
+    				</a>
+  				</div>
+  				<div class="media-body">
+    				<h4 class="media-heading"><a href="index.php?page=press_release&amp;id=907" title="Read More...">Topa Sky Launch</a></h4>
+    				01,  Nov 2017 - Time to explore Oceania and the South Pacific
+  				</div>
 			</div>
 
+			<div class="media news-item">
+ 				<div class="media-left">
+    				<a href="index.php?page=press_release&amp;id=906">
+      					<img class="media-object" style="width: 65px; height: 50px;" src="https://flyuk.aero/en/images/menu_images/mainstream.png" alt="...">
+    				</a>
+  				</div>
+  			<div class="media-body">
+    			<h4 class="media-heading"><a href="index.php?page=press_release&amp;id=906" title="Read More...">Bombardier CRJ700 now avaliable</a></h4>
+    			16,  Oct 2017 - The CRJ700 joins the fleet
+  			</div>
+		</div>
+
+		<div class="media news-item">
+  			<div class="media-left">
+    			<a href="index.php?page=press_release&amp;id=905">
+      				<img class="media-object" style="width: 65px; height: 50px;" src="https://flyuk.aero/en/images/menu_images/hc.png" alt="...">
+    			</a>
+  			</div>
+  			<div class="media-body">
+   				<h4 class="media-heading"><a href="index.php?page=press_release&amp;id=905" title="Read More...">B1900D Delivery Flights</a></h4>
+    			07,  Oct 2017 - Changes to the Highland Connect Fleet
+  			</div>
+		</div>	
+	</div>
+
+	<div class="col-md-4">
+		<h1>Today's Statistics</h1>
+
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<a href="index.php?page=flight_operations#report" class="home-stat">
+					<p>Total Hours</p>
+					<span style="font-size: 35px;">323:16</span>
+				</a>
+			</div>
+			
+			<div class="col-md-6 col-sm-6">
+				<a href="index.php?page=flight_operations#report" class="home-stat">
+					<p>Total PIREPs</p>
+					<span style="font-size: 35px;">207</span>
+				</a>
+			</div>
+			
+			<div class="col-md-6 col-sm-6">
+				<a href="index.php?page=flight_operations#report" class="home-stat">
+					<p>Unique Pilots</p>
+					<span style="font-size: 35px;">133</span>
+				</a>
+			</div>
+			
+			<div class="col-md-6 col-sm-6">
+				<a href="index.php?page=flight_operations#report" class="home-stat">
+					<p>New Members</p>
+					<span style="font-size: 35px; margin-top: 0px;">3</span>
+				</a>
+			</div>
+		
 		</div>
 
 	</div>
+
+</div>
 
 </div> 
 
