@@ -8,11 +8,11 @@
 <div class="flex flex-row mt-2">
     <div class="flex-1 md:w-1/4 mr-2">
         <label class="block text-grey-dark text-sm font-light mb-2 uppercase">flight number</label>
-        <div class="bg-grey-lightest p-2">FL1234</div>
+        <div class="bg-grey-lightest p-2">FL142</div>
     </div>
     <div class="flex-1 md:w-1/4 mr-2">
         <label class="block text-grey-dark text-sm font-light mb-2 uppercase">callsign</label>
-        <div class="bg-grey-lightest p-2 uppercase">skyways 12j</div>
+        <div class="bg-grey-lightest p-2 uppercase">skyways 8BL</div>
     </div>
     <div class="flex-1 md:w-1/4 mr-2">
         <label class="block text-grey-dark text-sm font-light mb-2 uppercase">departure time</label>
@@ -36,11 +36,11 @@
 <div class="flex flex-row mt-4">
     <div class="flex-1 md:w-1/4 mr-2">
         <label class="block text-grey-dark text-sm font-light mb-2 uppercase">flight type</label>
-        <div class="bg-grey-lightest p-2">SCHEDULED</div>
+        <div class="bg-grey-lightest p-2">DOMESTIC</div>
     </div>
     <div class="flex-1 md:w-1/4 mr-2">
         <label class="block text-grey-dark text-sm font-light mb-2 uppercase">flight division</label>
-        <div class="bg-grey-lightest p-2 uppercase">fly2</div>
+        <div class="bg-grey-lightest p-2 uppercase">SCHEDULED</div>
     </div>
     <div class="flex-1 md:w-1/4 mr-2">
         <label class="block text-grey-dark text-sm font-light mb-2 uppercase">aircraft</label>

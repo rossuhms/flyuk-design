@@ -3,7 +3,7 @@
 <div class="container mx-auto mt-6">
     <h1 class="font-light">
         <span>Dispatch Centre - </span>
-        <span class="text-blue-primary font-medium">FL1234</span>
+        <span class="text-blue-primary font-medium">FL142</span>
     </h1>
     <div class="w-full flex flex-row mt-6">
         <div class="w-1/4 flex flex-col">
@@ -12,6 +12,11 @@
             </div>
             <div class="mt-6">
                 <a href="" class="text-grey-dark">Route</a>
+            </div>
+            <div class="mt-6">
+                <a href="{{ route('flight.dispatch.aircraft') }}" class="text-grey-dark">
+                    Aircraft (G-FLDE)
+                </a>
             </div>
             <div class="mt-6">
                 <a href="{{ route('flight.dispatch.departure') }}" class="text-grey-dark {{ isActiveRoute('flight.dispatch.departure') }}">Departure - Edinburgh</a>
