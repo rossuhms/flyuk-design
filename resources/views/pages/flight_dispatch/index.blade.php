@@ -57,7 +57,7 @@
     </div>
     <div class="flex-1 mt-4">
         <div class="flex items-center justify-center w-full h-64 bg-grey-lightest">
-            map overview of route
+            a fancy map with a line from departure to destination airports
         </div>
     </div>
 </div>
