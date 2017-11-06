@@ -8,13 +8,13 @@
     <div class="w-full flex flex-row mt-6">
         <div class="w-1/4 flex flex-col">
             <div class="mt-2">
-                <a href="{{ route('flight.dispatch.overview') }}" class="text-grey-darker font-bold">Flight Overview</a>
+                <a href="{{ route('flight.dispatch.overview') }}" class="text-grey-dark {{ isActiveRoute('flight.dispatch.overview') }}">Flight Overview</a>
             </div>
             <div class="mt-6">
                 <a href="" class="text-grey-dark">Route</a>
             </div>
             <div class="mt-6">
-                <a href="{{ route('flight.dispatch.departure') }}" class="text-grey-dark">Departure - Edinburgh</a>
+                <a href="{{ route('flight.dispatch.departure') }}" class="text-grey-dark {{ isActiveRoute('flight.dispatch.departure') }}">Departure - Edinburgh</a>
             </div>
             <div class="mt-6">
                 <a href="" class="text-grey-dark">Arrival - London Heathrow</a>

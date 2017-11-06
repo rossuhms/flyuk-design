@@ -22,55 +22,55 @@
                 <div class="dropdown-menu w-full absolute">
                     <div class="flex">
                         <div class="flex flex-wrap md:w-3/4 px-4">
-                            <div class="flex-none w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
+                            <div class="flex-no-shrink w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
                                 <a href="#">
                                     <img src="https://flyuk.aero/en/images/menu_images/mainstream.png" class="fit">
                                     <span>Mainstream</span>
                                 </a>
                             </div>
-                            <div class="flex-none w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
+                            <div class="flex-no-shrink w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
                                 <a href="#">
                                     <img src="https://flyuk.aero/en/images/menu_images/fly2.png" class="fit">
                                     <span>FLY2</span>
                                 </a>
                             </div>
-                            <div class="flex-none w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
+                            <div class="flex-no-shrink w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
                                 <a href="#">
                                     <img src="https://flyuk.aero/en/images/menu_images/hc.png" class="fit">
                                     <span>Highland Connect</span>
                                 </a>
                             </div>
-                            <div class="flex-none w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
+                            <div class="flex-no-shrink w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
                                 <a href="#">
                                     <img src="https://flyuk.aero/en/images/menu_images/ns.png" class="fit">
                                     <span>Nordic Sky</span>
                                 </a>
                             </div>
-                            <div class="flex-none w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
+                            <div class="flex-no-shrink w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
                                 <a href="#">
                                     <img src="https://flyuk.aero/en/images/menu_images/topa_ops.png" class="fit">
                                     <span>Topa Sky</span>
                                 </a>
                             </div>
-                            <div class="flex-none w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
+                            <div class="flex-no-shrink w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
                                 <a href="#">
                                     <img src="https://flyuk.aero/en/images/menu_images/codeshare.png" class="fit">
                                     <span>Codeshare</span>
                                 </a>
                             </div>
-                            <div class="flex-none w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
+                            <div class="flex-no-shrink w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
                                 <a href="#">
                                     <img src="https://flyuk.aero/en/images/menu_images/cargo.png" class="fit">
                                     <span>Cargo</span>
                                 </a>
                             </div>
-                            <div class="flex-none w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
+                            <div class="flex-no-shrink w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
                                 <a href="#">
                                     <img src="https://flyuk.aero/en/images/menu_images/tours.png" class="fit">
                                     <span>Tours</span>
                                 </a>
                             </div>
-                            <div class="flex-none w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
+                            <div class="flex-no-shrink w-32 h-32 m-4 p-1 bg-grey-lighter border border-grey-light shadow text-center rounded hover:border-blue-light">
                                 <a href="#">
                                     <img src="https://flyuk.aero/en/images/menu_images/fc.png" class="fit">
                                     <span>Flying Club</span>
