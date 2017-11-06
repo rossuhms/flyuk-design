@@ -774,6 +774,10 @@ button,
 /**
  * Custom styling / components.
  */
+[v-cloak] {
+  visibility: hidden;
+}
+
 a {
   text-decoration: none;
   color: #364349;

@@ -3,10 +3,10 @@
         @include('svg.menu', ['class' => 'absolute pin-r pt-3 mr-2 w-6 text-blue-primary z-60'])
         <input id="toggle-mobile-menu" type="checkbox" class="hidden toggle-mobile-menu">
     </label>
-    <div class="container px-8 mx-auto relative">
+    <div class="container mx-auto relative">
         <div class="main-navigation hidden sm:hidden md:flex md:flex-row" id="main-navigation">
             <div class="nav-item">
-                <a href="https://flyuk-design.dev">Home</a>
+                <a href="{{ route('home') }}">Home</a>
             </div>
             <div class="nav-item-small">
                 <a href="https://flyuk-design.dev">About Us <b class="caret"></b></a>
@@ -78,11 +78,13 @@
                             </div>
                         </div>
                         <div class="flex flex-col md:w-1/4 p-4">
-                            <div class="rounded border border-grey-light p-1 hover:border-blue-light cursor-pointer mb-4">
-                                <div class="flex-none p-2 rounded bg-grey-lighter text-center">
-                                    Flight Search
+                            <a href="{{ route('flight.search.results') }}">
+                                <div class="rounded border border-grey-light p-1 hover:border-blue-light cursor-pointer mb-4">
+                                    <div class="flex-none p-2 rounded bg-grey-lighter text-center">
+                                        Flight Search
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                             <div class="rounded border border-grey-light p-1 hover:border-blue-light cursor-pointer mb-4">
                                 <div class="flex-none p-2 rounded bg-grey-lighter text-center">
                                     Flight Operations

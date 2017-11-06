@@ -1,8 +1,8 @@
 <header class="w-full h-40 bg-blue-primary">
-    <div class="container px-8 mx-auto">
-        <div class="row">
+    <div class="container mx-auto">
+        <div class="row h-6">
             <div class="md:w-1/2 text-left text-white pt-2">
-                <span class="text-sm">@{{ currentTime }}</span>
+                <span class="text-sm" v-html="currentTime"></span>
             </div>
             <div class="md:w-1/2 text-white pt-2 text-sm">
                 <div class="hidden md:flex md:flex-row justify-end">

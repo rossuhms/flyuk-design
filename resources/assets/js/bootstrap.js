@@ -1,12 +1,15 @@
 window._ = require('lodash');
 
+let Turbolinks = require("turbolinks")
+Turbolinks.start()
+
 try {
     window.$ = window.jQuery = require('jquery');
     window.moment = require('moment');
     window.owlCarousel = require('owl.carousel');
 
     /** Initalize Owl Carousel for homepage main banner */
-    $(document).ready(function(){
+    window.addEventListener('turbolinks:load', () => {
       $('.homepage-carousel').owlCarousel({
         items: 1,
         loop: true,
@@ -31,6 +34,11 @@ try {
         autoplayHoverPause: true,
         dots: false
       });
+    });
+    window.addEventListener("turbolinks:before-cache", function() {
+      $('.homepage-carousel').owlCarousel('destroy');
+      $('.homepage-events-carousel').owlCarousel('destroy');
+      $('.partners-carousel').owlCarousel('destroy');
     });
 } catch (e) {}
 

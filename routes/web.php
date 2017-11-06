@@ -1,7 +1,4 @@
 <?php
 
-Route::get('/', function () {
-    return view('homepage');
-});
-
-Route::view('/flight/search/results', 'pages.flight_search.results');
+Route::view('/', 'homepage')->name('home');
+Route::view('/flight/search/results', 'pages.flight_search.results')->name('flight.search.results');
