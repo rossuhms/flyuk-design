@@ -6,7 +6,7 @@
 <div class="container mx-auto mt-6">
     <div class="flex flex-col justify-center md:flex-row lg:flex-row xl:flex-row">
         <div class="w-full md:w-3/5 mr-4">
-            <h1 class="font-light">Latest News</h1>
+            <h1 class="font-light text-center md:text-left">Latest News</h1>
             <div class="news-item border-b border-dashed border-grey">
                 <div class="w-auto hidden md:block">
                     <img src="https://flyuk.aero/en/images/menu_images/topa.png" alt="">
@@ -50,24 +50,24 @@
                 </div>
             </div>
         </div>
-        <div class="w-2/5">
-            <h1 class="font-light">Today's Statistics</h1>
-            <div class="flex flex-row pt-4">
-                <div class="w-1/2 mx-8 bg-grey-dark text-white text-center p-4 hover:bg-grey-darker cursor-pointer">
+        <div class="w-full md:w-2/5">
+            <h1 class="font-light text-center mt-6 md:text-left md:mt-0">Today's Statistics</h1>
+            <div class="flex flex-col md:flex-row pt-4">
+                <div class="flex-grow flex-no-shrink w-auto mx-8 mt-4 md:mt-0 bg-grey-dark text-white text-center p-4 hover:bg-grey-darker cursor-pointer">
                     <span class="block text-sm">Total Hours</span>
                     <span class="block text-3xl pt-4">90:43</span>
                 </div>
-                <div class="w-1/2 mx-8 bg-grey-dark text-white text-center p-4 hover:bg-grey-darker cursor-pointer">
+                <div class="flex-grow flex-no-shrink w-auto mx-8 mt-4 md:mt-0 bg-grey-dark text-white text-center p-4 hover:bg-grey-darker cursor-pointer">
                     <span class="block text-sm">Total PIREPs</span>
                     <span class="block text-3xl pt-4">61</span>
                 </div>
             </div>
-            <div class="flex flex-row mt-6">
-                <div class="w-1/2 mx-8 bg-grey-dark text-white text-center p-4 hover:bg-grey-darker cursor-pointer">
+            <div class="flex flex-col md:flex-row mt-6">
+                <div class="flex-grow flex-no-shrink w-auto mt-4 md:mt-0 mx-8 bg-grey-dark text-white text-center p-4 hover:bg-grey-darker cursor-pointer">
                     <span class="block text-sm">Unique PIlots</span>
                     <span class="block text-3xl pt-4">42</span>
                 </div>
-                <div class="w-1/2 mx-8 bg-grey-dark text-white text-center p-4 hover:bg-grey-darker cursor-pointer">
+                <div class="flex-grow flex-no-shrink w-auto mt-4 md:mt-0 mx-8 bg-grey-dark text-white text-center p-4 hover:bg-grey-darker cursor-pointer">
                      <span class="block text-sm">New Members</span>
                     <span class="block text-3xl pt-4">4</span>
                 </div>

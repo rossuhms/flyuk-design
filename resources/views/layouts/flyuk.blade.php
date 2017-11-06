@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <script src="{{ mix('js/app.js') }}"></script>
 </head>
-<body class="font-normal bg-white">
+<body class="font-sans font-normal text-grey-darkest bg-white">
     <div id="app">
         @include('layouts.components.header')
         @include('layouts.components.nav')
