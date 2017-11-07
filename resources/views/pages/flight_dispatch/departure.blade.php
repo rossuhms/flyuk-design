@@ -1,5 +1,5 @@
 @extends('pages.flight_dispatch.layout')
-@section('flight-dispatch-content')
+@section('flight-dispatch-content'
 <div class="flex flex-col">
     <div class="flex-1 mr-2 mb-2">
         <h2 class="font-light">Departure - Edinburgh</h2>

@@ -15,6 +15,7 @@ document.addEventListener('turbolinks:load', () => {
             currentYear: moment().format('YYYY'),
         },
         mounted() {
+            Bugsnag.notify("ErrorName", "Test Error");
             setInterval(() => {
                 this.currentTime = moment().utc().format('ddd, Do MMM YYYY - HH:mm:ss');
             },1000);

@@ -59819,6 +59819,7 @@ document.addEventListener('turbolinks:load', function () {
         mounted: function mounted() {
             var _this = this;
 
+            Bugsnag.notify("ErrorName", "Test Error");
             setInterval(function () {
                 _this.currentTime = moment().utc().format('ddd, Do MMM YYYY - HH:mm:ss');
             }, 1000);
