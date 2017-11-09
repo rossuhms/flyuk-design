@@ -208,18 +208,6 @@
   z-index: 1;
   height: 100%;
   width: 100%;
-}
-
-@media (min-width: 576px) {
-}
-
-@media (min-width: 768px) {
-}
-
-@media (min-width: 992px) {
-}
-
-@media (min-width: 1200px) {
 }/**
  * Owl Carousel v2.2.0
  * Copyright 2013-2016 David Deutsch
@@ -281,18 +269,6 @@
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
-}
-
-@media (min-width: 576px) {
-}
-
-@media (min-width: 768px) {
-}
-
-@media (min-width: 992px) {
-}
-
-@media (min-width: 1200px) {
 }/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -747,22 +723,26 @@ textarea {
   font-family: inherit;
 }
 
-input::-webkit-input-placeholder {
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
   color: inherit;
   opacity: .5;
 }
 
-input:-ms-input-placeholder {
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
   color: inherit;
   opacity: .5;
 }
 
-input::-ms-input-placeholder {
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
   color: inherit;
   opacity: .5;
 }
 
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: inherit;
   opacity: .5;
 }
@@ -800,6 +780,148 @@ a.white:hover {
   border-top: 4px solid;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: .25rem;
+  border: 2px solid #dae4e9;
+}
+
+.btn.btn-full {
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn.btn-primary {
+  background-color: #103d60;
+  border-color: #111d41;
+  color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  background-color: #111d41;
+  border-color: #103d60;
+}
+
+.btn.btn-primary-outline {
+  background-color: #ffffff;
+  border-color: #111d41;
+  color: #111d41;
+}
+
+.btn.btn-primary-outline:hover {
+  background-color: #111d41;
+  color: #ffffff;
+}
+
+.btn.btn-grey {
+  background-color: #f3f7f9;
+  border-color: #dae4e9;
+  color: #70818a;
+}
+
+.btn.btn-grey:hover {
+  background-color: #dae4e9;
+  border-color: #f3f7f9;
+}
+
+.btn.btn-grey-outline {
+  background-color: #ffffff;
+  border-color: #dae4e9;
+  color: #70818a;
+}
+
+.btn.btn-grey-outline:hover {
+  background-color: #f3f7f9;
+}
+
+.label {
+  display: block;
+  font-size: .875rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.input[type=text],
+.input[type=password] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #dae4e9;
+  border-radius: .25rem;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  color: #596a73;
+}
+
+.input[type=text].input-shadow,
+.input[type=password].input-shadow {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+}
+
+.input[type=text].input-error,
+.input[type=password].input-error {
+  border: 1px solid #dae4e9;
+  border-color: #e3342f;
+}
+
+.select-dropdown {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.select-dropdown select.dropdown {
+  display: block;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #dae4e9;
+  border-color: #dae4e9;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 2rem;
+  border-radius: .25rem;
+}
+
+.select-dropdown select.dropdown:hover {
+  border-color: #9babb4;
+}
+
+.select-dropdown select.dropdown.dropdown-shadow {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+}
+
+.select-dropdown .arrow {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .row {
@@ -1108,6 +1230,12 @@ img.grey-hover:hover {
   .container {
     max-width: 1200px;
   }
+}
+
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .appearance-none {
@@ -3227,8 +3355,16 @@ img.grey-hover:hover {
   margin: 1px;
 }
 
+.mt-auto {
+  margin-top: auto;
+}
+
 .mr-auto {
   margin-right: auto;
+}
+
+.mb-auto {
+  margin-bottom: auto;
 }
 
 .ml-auto {
@@ -3238,6 +3374,15 @@ img.grey-hover:hover {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.m-auto {
+  margin: auto;
 }
 
 .-mt-0 {
@@ -3842,16 +3987,16 @@ img.grey-hover:hover {
 .cursor-not-allowed {
   cursor: not-allowed;
 }
-
-.list-reset {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 /**
  * Addons
  */
 @media (min-width: 576px) {
+  .sm\:list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
   .sm\:appearance-none {
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -5969,8 +6114,16 @@ img.grey-hover:hover {
     margin: 1px;
   }
 
+  .sm\:mt-auto {
+    margin-top: auto;
+  }
+
   .sm\:mr-auto {
     margin-right: auto;
+  }
+
+  .sm\:mb-auto {
+    margin-bottom: auto;
   }
 
   .sm\:ml-auto {
@@ -5980,6 +6133,15 @@ img.grey-hover:hover {
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .sm\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .sm\:m-auto {
+    margin: auto;
   }
 
   .sm\:-mt-0 {
@@ -6584,15 +6746,15 @@ img.grey-hover:hover {
   .sm\:cursor-not-allowed {
     cursor: not-allowed;
   }
+}
 
-  .sm\:list-reset {
+@media (min-width: 768px) {
+  .md\:list-reset {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-}
 
-@media (min-width: 768px) {
   .md\:appearance-none {
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -8710,8 +8872,16 @@ img.grey-hover:hover {
     margin: 1px;
   }
 
+  .md\:mt-auto {
+    margin-top: auto;
+  }
+
   .md\:mr-auto {
     margin-right: auto;
+  }
+
+  .md\:mb-auto {
+    margin-bottom: auto;
   }
 
   .md\:ml-auto {
@@ -8721,6 +8891,15 @@ img.grey-hover:hover {
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .md\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .md\:m-auto {
+    margin: auto;
   }
 
   .md\:-mt-0 {
@@ -9325,15 +9504,15 @@ img.grey-hover:hover {
   .md\:cursor-not-allowed {
     cursor: not-allowed;
   }
+}
 
-  .md\:list-reset {
+@media (min-width: 992px) {
+  .lg\:list-reset {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-}
 
-@media (min-width: 992px) {
   .lg\:appearance-none {
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -11451,8 +11630,16 @@ img.grey-hover:hover {
     margin: 1px;
   }
 
+  .lg\:mt-auto {
+    margin-top: auto;
+  }
+
   .lg\:mr-auto {
     margin-right: auto;
+  }
+
+  .lg\:mb-auto {
+    margin-bottom: auto;
   }
 
   .lg\:ml-auto {
@@ -11462,6 +11649,15 @@ img.grey-hover:hover {
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .lg\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .lg\:m-auto {
+    margin: auto;
   }
 
   .lg\:-mt-0 {
@@ -12066,15 +12262,15 @@ img.grey-hover:hover {
   .lg\:cursor-not-allowed {
     cursor: not-allowed;
   }
+}
 
-  .lg\:list-reset {
+@media (min-width: 1200px) {
+  .xl\:list-reset {
     list-style: none;
     margin: 0;
     padding: 0;
   }
-}
 
-@media (min-width: 1200px) {
   .xl\:appearance-none {
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -14192,8 +14388,16 @@ img.grey-hover:hover {
     margin: 1px;
   }
 
+  .xl\:mt-auto {
+    margin-top: auto;
+  }
+
   .xl\:mr-auto {
     margin-right: auto;
+  }
+
+  .xl\:mb-auto {
+    margin-bottom: auto;
   }
 
   .xl\:ml-auto {
@@ -14203,6 +14407,15 @@ img.grey-hover:hover {
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .xl\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .xl\:m-auto {
+    margin: auto;
   }
 
   .xl\:-mt-0 {
@@ -14806,11 +15019,5 @@ img.grey-hover:hover {
 
   .xl\:cursor-not-allowed {
     cursor: not-allowed;
-  }
-
-  .xl\:list-reset {
-    list-style: none;
-    margin: 0;
-    padding: 0;
   }
 }

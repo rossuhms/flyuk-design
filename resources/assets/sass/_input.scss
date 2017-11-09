@@ -1,0 +1,35 @@
+.label {
+    @apply .block .text-sm .font-bold .mb-2;
+}
+
+.input[type=text], .input[type=password] {
+    @apply .appearance-none .border .rounded .w-full .py-2 .px-3 .text-grey-darker;
+
+    &.input-shadow {
+        @apply .shadow;
+    }
+
+    &.input-error {
+        @apply .border .border-red;
+    }
+}
+
+.select-dropdown {
+    @apply .inline-block .relative .w-full;
+
+    select.dropdown {
+        @apply .block .appearance-none .w-full .bg-white .border .border-grey-light .px-4 .py-2 .pr-8 .rounded;
+        &:hover {
+            @apply .border-grey;
+        }
+        &.dropdown-shadow {
+            @apply .shadow;
+        }
+    }
+
+    .arrow {
+        @apply .pointer-events-none .absolute .pin-y .pin-r .flex .items-center .px-2;
+    }
+}
+
+

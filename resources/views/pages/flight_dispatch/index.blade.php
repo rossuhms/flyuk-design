@@ -60,5 +60,27 @@
             a fancy map with a line from departure to destination airports
         </div>
     </div>
+    <div class="flex-1 mt-4">
+        <button class="btn btn-grey btn-full">Dispatch</button>
+        <button class="btn btn-primary">Dispatch</button>
+        <button class="btn btn-primary-outline">Dispatch</button>
+        <button class="btn btn-grey-outline float-right">Dispatch</button>
+    </div>
+    <div class="flex-1 mt-4 w-64">
+        <label class="label" for="username">
+            Username
+        </label>
+        <input class="input" id="username" type="text" placeholder="Username">
+        <div class="select-dropdown mt-4">
+            <select class="dropdown">
+                   <option>Really long option that will likely overlap the chevron</option>
+                   <option>Option 2</option>
+                   <option>Option 3</option>
+            </select>
+            <div class="arrow">
+                @include('svg.select-arrow')
+            </div>
+        </div>
+    </div>
 </div>
 @endsection

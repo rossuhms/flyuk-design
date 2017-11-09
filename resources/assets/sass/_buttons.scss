@@ -1,0 +1,35 @@
+.btn {
+    @apply .inline-block .text-center .align-middle .p-2 .px-4 .rounded .border-2;
+
+    &.btn-full {
+        @apply .w-full .my-2;
+    }
+
+    &.btn-primary {
+        @apply .bg-blue-darker .border-blue-primary .text-white;
+        &:hover {
+            @apply .bg-blue-primary .border-blue-darker;
+        }
+    }
+
+    &.btn-primary-outline {
+        @apply .bg-white .border-blue-primary .text-blue-primary;
+        &:hover {
+            @apply .bg-blue-primary .text-white;
+        }
+    }
+
+    &.btn-grey {
+        @apply .bg-grey-lighter .border-grey-light .text-grey-dark;
+        &:hover {
+            @apply .bg-grey-light .border-grey-lighter;
+        }
+    }
+
+    &.btn-grey-outline {
+        @apply .bg-white .border-grey-light .text-grey-dark;
+        &:hover {
+            @apply .bg-grey-lighter;
+        }
+    }
+}
