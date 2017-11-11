@@ -2,7 +2,7 @@
 @section('main-content')
 <div class="container mx-auto mt-6">
     <h1 class="font-light">
-        <span>Dispatch Centre - </span>
+        <span>Dispatch - </span>
         <span class="text-blue-primary font-medium">FL142</span>
     </h1>
     <div class="w-full flex flex-row mt-6">
